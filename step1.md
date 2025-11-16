@@ -5,7 +5,7 @@
 ## Проверим статус сервисов:
 
 ```bash
-```docker-compose ps
+docker-compose ps
 
 Вы должны увидеть 3 сервиса в статусе "Up":
 
