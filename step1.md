@@ -6,6 +6,3 @@
 
 ```bash
 docker-compose ps
-
-curl http://localhost:8080/actuator/prometheus | head -10
-
