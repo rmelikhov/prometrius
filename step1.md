@@ -6,3 +6,10 @@
 
 ```bash
 docker-compose ps
+
+
+## Проверим метрики приложения:
+
+```bash
+curl http://localhost:8080/actuator/prometheus | head -10
+
