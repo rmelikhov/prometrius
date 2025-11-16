@@ -14,7 +14,7 @@ docker-compose ps
 - **prometheus** - система сбора метрик  
 - **grafana** - система визуализации
 
-##Проверим метрики приложения:
+## Проверим метрики приложения:
 
 ```bash
 curl http://localhost:8080/actuator/prometheus | head -10
@@ -22,8 +22,8 @@ curl http://localhost:8080/actuator/prometheus | head -10
 
 Вы увидите различные метрики JVM, такие как:
 - `jvm_memory_used_bytes` - использование памяти
-* jvm_threads_live - количество потоков
-* process_cpu_usage - использование CPU
+- `jvm_threads_live` - количество потоков
+- `process_cpu_usage` - использование CPU
 
 > **Задание:** Откройте в браузере http://localhost:8080/actuator и изучите доступные эндпоинты.
 
