@@ -7,9 +7,23 @@
 ```bash
 docker-compose ps
 
+Вы должны увидеть 3 сервиса в статусе "Up":
 
-## Проверим метрики приложения:
+demo-app - Java приложение
 
-```bash
+prometheus - система сбора метрик
+
+grafana - система визуализации
+
 curl http://localhost:8080/actuator/prometheus | head -10
+
+Вы увидите различные метрики JVM, такие как:
+
+jvm_memory_used_bytes - использование памяти
+
+jvm_threads_live - количество потоков
+
+process_cpu_usage - использование CPU
+
+Задание: Откройте в браузере http://localhost:8080/actuator и изучите доступные эндпоинты.
 
