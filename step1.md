@@ -5,7 +5,7 @@
 ## Проверим статус сервисов:
 
 ```bash
-'''docker-compose ps
+```docker-compose ps
 
 Вы должны увидеть 3 сервиса в статусе "Up":
 
@@ -15,7 +15,7 @@ prometheus - система сбора метрик
 
 grafana - система визуализации
 
-'''curl http://localhost:8080/actuator/prometheus | head -10
+```curl http://localhost:8080/actuator/prometheus | head -10
 
 Вы увидите различные метрики JVM, такие как:
 
