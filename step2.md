@@ -16,9 +16,9 @@
 jvm_memory_used_bytes
 
 
-rate(http_server_requests_seconds_count[5m])
+'''rate(http_server_requests_seconds_count[5m])
 
-process_cpu_usage
+'''process_cpu_usage
 
 Объяснение:
 rate() - вычисляет скорость роста метрики за временной интервал
