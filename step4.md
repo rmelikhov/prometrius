@@ -18,7 +18,7 @@ rate(http_server_requests_seconds_count[1m])
 - **Тип визуализации:** Stat
 - **Title:** Requests per Second
 
-Панель 3: CPU использование
+### Панель 3: CPU использование
 
 ```promql
 system_cpu_usage
@@ -27,7 +27,7 @@ system_cpu_usage
 - **Тип визуализации:** Gauge
 - **Title:** CPU Usage
 
-Min: 0, Max: 1
+- **Min:** 0, **Max:** 1
 
 Генерация нагрузки (опционально):
 Откройте новую вкладку терминала и создайте нагрузку:
