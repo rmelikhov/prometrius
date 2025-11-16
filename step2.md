@@ -15,8 +15,10 @@
 ```promql
 jvm_memory_used_bytes
 
+```promql
 rate(http_server_requests_seconds_count[5m])
 
+```promql
 process_cpu_usage
 
 
