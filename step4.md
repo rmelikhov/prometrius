@@ -10,14 +10,13 @@ jvm_memory_used_bytes{area="heap"}
 - **Тип визуализации:** Graph
 - **Title:** Heap Memory Usage
 
-Панель 2: Запросы в секунду (RPS)
+### Панель 2: Запросы в секунду (RPS)
 ```promql
 rate(http_server_requests_seconds_count[1m])
 ```
 
-Тип визуализации: Stat
-
-Title: Requests per Second
+- **Тип визуализации:** Stat
+- **Title:** Requests per Second
 
 Панель 3: CPU использование
 
@@ -25,9 +24,8 @@ Title: Requests per Second
 system_cpu_usage
 ```
 
-Тип визуализации: Gauge
-
-Title: CPU Usage
+- **Тип визуализации:** Gauge
+- **Title:** CPU Usage
 
 Min: 0, Max: 1
 
