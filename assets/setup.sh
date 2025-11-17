@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Установка прав на исполнение
+chmod +x "$0"
+
 # Установка Docker
 apt-get update
 apt-get install -y docker.io curl
