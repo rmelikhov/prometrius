@@ -2,7 +2,7 @@
   "title": "Prometheus + Grafana мониторинг",
   "description": "Практикум по настройке мониторинга Java приложения",
   "difficulty": "beginner", 
-  "time": "90 minutes",
+  "time": "90",
   "details": {
     "steps": [
       {
